@@ -35,4 +35,10 @@ main {
 p {
     margin-bottom: 16px;
 }
+
+@media only screen and (max-width: 600px)  {
+  main {
+    width: calc(100vw - 73px);
+  }
+}
 </style>

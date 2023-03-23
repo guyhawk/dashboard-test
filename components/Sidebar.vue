@@ -89,4 +89,18 @@
     height: 24px;
     margin-right: 16px;
 }
+
+@media only screen and (max-width: 600px)  {
+    .logo {
+        overflow: hidden;
+        width: 50px;
+    }
+    .sidebar {
+        width: 70px;
+    }
+    .nav-item {
+        width: 58px;
+        overflow: hidden;
+    }
+}
 </style>
